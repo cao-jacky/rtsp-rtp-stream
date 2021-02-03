@@ -15,6 +15,7 @@ class Client:
     DEFAULT_RECV_DELAY = 20  # in milliseconds
 
     DEFAULT_LOCAL_HOST = '127.0.0.1'
+    DEFAULT_LOCAL_HOST = '192.168.1.96'
 
     RTP_SOFT_TIMEOUT = 5  # in milliseconds
     # for allowing simulated non-blocking operations
