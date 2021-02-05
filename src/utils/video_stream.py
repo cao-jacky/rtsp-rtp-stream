@@ -1,8 +1,8 @@
 class VideoStream:
     FRAME_HEADER_LENGTH = 5
-    DEFAULT_IMAGE_SHAPE = (380, 280)
+    DEFAULT_IMAGE_SHAPE = (3840, 2160)
     VIDEO_LENGTH = 500
-    DEFAULT_FPS = 24
+    DEFAULT_FPS = 60
 
     # if it's present at the end of chunk,
     # it's the last chunk for current jpeg (end of frame)
